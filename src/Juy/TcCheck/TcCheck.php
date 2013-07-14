@@ -2,15 +2,59 @@
 
 /**
  * T.C. Kimlik numarası doğrulama ve sorgulama
- *		Bilgiler üzerinde herhangi bir kontrol (validation) yapılmaz,
- *		doğrulma sorgulamadan önce yapılmalıdır.
+ * Bilgiler üzerinde herhangi bir kontrol (validation) yapılmaz, doğrulma sorgulamadan önce yapılmalıdır.
  */
 class TcCheck {
 
-// FIXME: sorgulama yapmadan önce doğrulama yapılmalıdır
+// TODO: Sorgulama yapmadan önce doğrulama yapılabilir
 
 	/**
-	 * API üzerinden T.C. Kimlik numarası sorgulama
+	 * T.C. Kimlik numarası algoritmik doğrulama
+	 *
+	 *		// Kullanım
+			$check = TcCheck::verify($bilgi['tckimlikno']);
+			var_dump($check);
+	 *
+	 * @param int $tcno
+	 * @return bool
+	 */
+	public static function verify($tcno)
+	{
+		// 11 hane olmalı
+		if (strlen($tcno) != 11) 
+		{
+			return FALSE;
+		}
+
+		// Rakamlardan oluşmaladır
+		if (!preg_match('/(?<!\S)\d++(?!\S)/', $tcno))
+		{
+			return FALSE;
+		}
+
+		$digit = preg_split('//', $tcno, -1, PREG_SPLIT_NO_EMPTY);
+
+		if ($digit[0] == 0)
+		{
+			return FALSE;
+		}
+
+		$odd = $digit[0] + $digit[2] + $digit[4] + $digit[6] + $digit[8];
+		$even = $digit[1] + $digit[3] + $digit[5] + $digit[7];
+		$digit10 = ($odd * 7 - $even) % 10;
+		$total = ($odd + $even + $digit[9]) % 10;
+
+		if ($digit10 != $digit[9] OR $total != $digit[10])
+		{
+			return FALSE;
+		}
+
+		return TRUE;
+	}
+
+
+	/**
+	 * API üzerinden T.C. Kimlik numarası veri doğruluk kontrolü
 	 *
 	 * 		// Kullanım
 
@@ -64,50 +108,6 @@ class TcCheck {
 		curl_close($ch);
 
 		return (strip_tags($response) === 'true') ? TRUE : FALSE;
-	}
-
-	/**
-	 * T.C. Kimlik numarası doğrulama algoritması
-	 *
-	 *		// Kullanım
-			$check = TcCheck::verify($bilgi['tckimlikno']);
-			var_dump($check);
-	 *
-	 * @param int $tcno
-	 * @return bool
-	 */
-	public static function verify($tcno)
-	{
-		// 11 hane olmalı
-		if (strlen($tcno) != 11) 
-		{
-			return FALSE;
-		}
-
-		// 
-		if (!preg_match('/(?<!\S)\d++(?!\S)/', $tcno))
-		{
-			return FALSE;
-		}
-
-		$digit = preg_split('//', $tcno, -1, PREG_SPLIT_NO_EMPTY);
-
-		if ($digit[0] == 0)
-		{
-			return FALSE;
-		}
-
-		$odd = $digit[0] + $digit[2] + $digit[4] + $digit[6] + $digit[8];
-		$even = $digit[1] + $digit[3] + $digit[5] + $digit[7];
-		$digit10 = ($odd * 7 - $even) % 10;
-		$total = ($odd + $even + $digit[9]) % 10;
-
-		if ($digit10 != $digit[9] OR $total != $digit[10])
-		{
-			return FALSE;
-		}
-
-		return TRUE;
 	}
 
 }
