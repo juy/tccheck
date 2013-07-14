@@ -1,0 +1,21 @@
+{
+    "name": "juy/tccheck",
+    "description": "T.C. Kimlik numarası doğrulama ve sorgulama",
+    "keywords": ["tc kimlik"],
+    "homepage": "http://github.com/juy/tccheck",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sevdin Filiz",
+            "email": "angelside@users.sourceforge.net",
+            "homepage": "http://juysoft.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Juy\\TcCheck": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
