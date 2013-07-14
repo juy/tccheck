@@ -1,12 +1,12 @@
 # T.C. Kimlik numarası doğrulama ve sorgulama #
 Bilgiler üzerinde herhangi bir kontrol (validation) yapılmaz, doğrulma sorgulamadan önce yapılmalıdır.
 
-# Özellikler #
+## Özellikler ##
 
 - T.C. Kimlik numarası algoritmik doğrulama
 - API üzerinden T.C. Kimlik numarası veri doğruluk kontrolü
 
-# Kullanım #
+## Kullanım ##
 
 ### Algoritmik doğrulama ###
 
