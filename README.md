@@ -29,7 +29,7 @@ $data = array(
 	'tcno'			=> 'xxxxxxxxxxx',	// T.C. kimlik Numarası (11 haneli ve rakamlardan oluşmaladır)
 	'isim'			=> 'XXXXX', 		// Doğrulanacak kişinin adı, tümü büyük harf (iki isme sahip kişilerin iki ismide yazılmalı)
 	'soyisim'		=> 'XXXXX', 		// Doğrulanacak kişinin soyadı, tümü büyük harf
-	'dogumyili'		=> '19xx', 		// Doğum yılı (4 haneli ve rakamlardan oluşmalıdır)
+	'dogumyili'		=> '19xx', 			// Doğum yılı (4 haneli ve rakamlardan oluşmalıdır)
 );
 $check = TcCheck::check($data);
 var_dump($check);
