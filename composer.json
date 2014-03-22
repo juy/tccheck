@@ -7,9 +7,9 @@
     "authors": [
         {
             "name": "Sevdin Filiz",
+            "role": "Developer",
             "email": "angelside@users.sourceforge.net",
             "homepage": "http://juysoft.com",
-            "role": "Developer"
         }
     ],
     "autoload": {
