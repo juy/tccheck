@@ -1,5 +1,5 @@
 ## T.C. Kimlik numarası doğrulama ve sorgulama
-[![Latest Stable Version][version-img]][version-url] [![Latest Unstable Version][unstable-img]][unstable-url] [![Total Downloads] [downloads-img]][downloads-url] [![License][license-img]][license-url]
+[![Still Maintained][stillmaintained-img]][stillmaintained-url] [![Latest Stable Version][version-img]][version-url] [![Latest Unstable Version][unstable-img]][unstable-url] [![Total Downloads] [downloads-img]][downloads-url] [![License][license-img]][license-url]
 
 "Algoritmik kontrol" ve "API üzerinden veri doğruluk kontrolü" olarak iki kısımdan oluşan "T.C. Kimlik numarası doğrulama ve sorgulama" sınıfı.
 
@@ -46,6 +46,8 @@ Açık kaynaklı olan bu proje [MIT lisansı][mit-url] ile lisanslanmıştır.
 [downloads-url]: https://packagist.org/packages/juy/tccheck
 [license-img]: https://poser.pugx.org/juy/tccheck/license.png
 [license-url]: https://packagist.org/packages/juy/tccheck
+[stillmaintained-img]: http://stillmaintained.com/juy/tccheck.png
+[stillmaintained-url]: http://stillmaintained.com/juy/tccheck
 
 [paypal-donate-img]: http://img.shields.io/badge/PayPal-donate-brightgreen.svg
 [paypal-donate-url]: http://j.mp/1hON5YR
