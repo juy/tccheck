@@ -4,9 +4,9 @@
 "Algoritmik kontrol" ve "API üzerinden veri doğruluk kontrolü" olarak iki kısımdan oluşan "T.C. Kimlik numarası doğrulama ve sorgulama" sınıfı.
 
 ## Projeyi destekleyin
-Bu ve diğer projelerimize destek vermek isterseniz, [PayPal][paypal-donate-url] veya [Gittip][gittip-donate-url] üzerinden bağışta bulunabilirsiniz.
+Bu ve diğer projelerimize destek vermek isterseniz, [PayPal][paypal-donate-url] üzerinden bağışta bulunabilirsiniz.
 
-[![PayPal ile destek][paypal-donate-img]][paypal-donate-url] [![Gittip ile destek][gittip-donate-img]][gittip-donate-url]
+[![PayPal ile destek][paypal-donate-img]][paypal-donate-url]
 
 ----------
 ## Özellikler
@@ -50,8 +50,6 @@ Açık kaynaklı olan bu proje [MIT lisansı][mit-url] ile lisanslanmıştır.
 [stillmaintained-url]: http://stillmaintained.com/juy/tccheck
 
 [paypal-donate-img]: http://img.shields.io/badge/PayPal-donate-brightgreen.svg
-[paypal-donate-url]: http://j.mp/1hON5YR
-[gittip-donate-img]: http://img.shields.io/badge/Gittip-donate-brightgreen.svg
-[gittip-donate-url]: https://www.gittip.com/angelside
+[paypal-donate-url]: http://bit.ly/donateAngelside
 
 [mit-url]: http://opensource.org/licenses/MIT
