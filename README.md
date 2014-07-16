@@ -1,7 +1,7 @@
-## T.C. Kimlik numarası doğrulama ve sorgulama
-[![Still Maintained][stillmaintained-img]][stillmaintained-url] [![Latest Stable Version][version-img]][version-url] [![Latest Unstable Version][unstable-img]][unstable-url] [![Total Downloads] [downloads-img]][downloads-url] [![License][license-img]][license-url]
+# T.C. Kimlik numarası doğrulama ve sorgulama
+[![Still Maintained][stillmaintained-img]][stillmaintained-url] [![Tag][tag-img]][tag-url] [![License][license-img]][license-url] [![Total Downloads] [downloads-img]][downloads-url]
 
-"Algoritmik kontrol" ve "API üzerinden veri doğruluk kontrolü" olarak iki kısımdan oluşan "T.C. Kimlik numarası doğrulama ve sorgulama" sınıfı.
+> "Algoritmik kontrol" ve "API üzerinden veri doğruluk kontrolü" olarak iki kısımdan oluşan "T.C. Kimlik numarası doğrulama ve sorgulama" sınıfı.
 
 ## Projeyi destekleyin
 Bu ve diğer projelerimize destek vermek isterseniz, [PayPal][paypal-donate-url] üzerinden bağışta bulunabilirsiniz.
@@ -10,7 +10,6 @@ Bu ve diğer projelerimize destek vermek isterseniz, [PayPal][paypal-donate-url]
 
 ----------
 ## Özellikler
-
 - PSR-0
 - T.C. Kimlik numarası algoritmik kontrol
 - API üzerinden T.C. Kimlik numarası veri doğruluk kontrolü
@@ -38,18 +37,16 @@ var_dump($check);
 ## Lisans
 Açık kaynaklı olan bu proje [MIT lisansı][mit-url] ile lisanslanmıştır.
 
-[version-img]: https://poser.pugx.org/juy/tccheck/v/stable.png
-[version-url]: https://packagist.org/packages/juy/tccheck
-[unstable-img]: https://poser.pugx.org/juy/tccheck/v/unstable.png
-[unstable-url]: https://packagist.org/packages/juy/tccheck
-[downloads-img]: https://poser.pugx.org/juy/tccheck/downloads.png
-[downloads-url]: https://packagist.org/packages/juy/tccheck
-[license-img]: https://poser.pugx.org/juy/tccheck/license.png
-[license-url]: https://packagist.org/packages/juy/tccheck
-[stillmaintained-img]: http://stillmaintained.com/juy/tccheck.png
+[stillmaintained-img]: http://img.shields.io/badge/project-maintained-brightgreen.svg?style=flat
 [stillmaintained-url]: http://stillmaintained.com/juy/tccheck
+[tag-img]: http://img.shields.io/github/tag/juy/tccheck.svg?style=flat
+[tag-url]: https://packagist.org/packages/juy/tccheck
+[license-img]: http://img.shields.io/packagist/l/juy/tccheck.svg?style=flat
+[license-url]: https://packagist.org/packages/juy/tccheck
+[downloads-img]: http://img.shields.io/packagist/dt/juy/tccheck.svg?style=flat
+[downloads-url]: https://packagist.org/packages/juy/tccheck
 
-[paypal-donate-img]: http://img.shields.io/badge/PayPal-donate-brightgreen.svg
+[paypal-donate-img]: http://img.shields.io/badge/PayPal-donate-brightgreen.svg?style=flat
 [paypal-donate-url]: http://bit.ly/donateAngelside
 
 [mit-url]: http://opensource.org/licenses/MIT
