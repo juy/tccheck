@@ -22,18 +22,19 @@ class TcCheck {
 	 */
 	public static function verify($tcno)
 	{
-		// 11 hane olmalı
+		// 11 karakterden oluşmalıdır
 		if (strlen($tcno) != 11) 
 		{
 			return false;
 		}
 
-		// Rakamlardan oluşmaladır
+		// Rakamlardan oluşmalıdır
 		if (!preg_match('/(?<!\S)\d++(?!\S)/', $tcno))
 		{
 			return false;
 		}
 
+		// Algoritmik hesaplamalar
 		$digit = preg_split('//', $tcno, -1, PREG_SPLIT_NO_EMPTY);
 
 		if ($digit[0] == 0)
