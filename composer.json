@@ -13,8 +13,8 @@
         }
     ],
     "autoload": {
-        "psr-0": {
-            "Juy\\TcCheck": "src/"
+        "psr-4": {
+            "Juy\\TcCheck\\": "src"
         }
     },
     "minimum-stability": "dev"
