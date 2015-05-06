@@ -39,8 +39,6 @@ Açık kaynaklı olan bu proje [MIT lisansı][mit-url] ile lisanslanmıştır.
 
 [license-img]: https://img.shields.io/packagist/l/juy/tccheck.svg?style=flat-square
 [license-url]: https://packagist.org/packages/juy/tccheck
-[downloads-img]: https://img.shields.io/packagist/dt/juy/tccheck.svg?style=flat-square
-[downloads-url]: https://packagist.org/packages/juy/tccheck
 
 [paypal-donate-img]: https://img.shields.io/badge/PayPal-donate-brightgreen.svg?style=flat-square
 [paypal-donate-url]: http://bit.ly/donateAngelside
