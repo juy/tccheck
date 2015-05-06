@@ -1,5 +1,5 @@
 ## T.C. Kimlik numarası doğrulama ve sorgulama
-[![License][license-img]][license-url] [![Total Downloads] [downloads-img]][downloads-url]
+[![License][license-img]][license-url]
 
 > "Algoritmik kontrol" ve "API üzerinden veri doğruluk kontrolü" olarak iki kısımdan oluşan "T.C. Kimlik numarası doğrulama ve sorgulama" sınıfı.
 
