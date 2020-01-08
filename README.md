@@ -35,3 +35,5 @@ var_dump($check);
 ### Lisans
 
 Açık kaynaklı olan bu proje [MIT lisansı][mit-url] ile lisanslanmıştır.
+
+[mit-url]: http://opensource.org/licenses/MIT
