@@ -1,5 +1,7 @@
 ## T.C. Kimlik numarası doğrulama ve sorgulama
 
+[![Latest Version on Packagist][ico-version]][link-packagist] [![Software License][ico-license]](LICENSE.txt)
+
 > "Algoritmik kontrol" ve "API üzerinden veri doğruluk kontrolü" olarak iki kısımdan oluşan "T.C. Kimlik numarası doğrulama ve sorgulama" sınıfı.
 
 ----------
@@ -34,6 +36,10 @@ var_dump($check);
 
 ### Lisans
 
-Açık kaynaklı olan bu proje [MIT lisansı][mit-url] ile lisanslanmıştır.
+Açık kaynaklı olan bu proje [MIT lisansı](LICENSE.txt) ile lisanslanmıştır.
 
-[mit-url]: http://opensource.org/licenses/MIT
+
+[ico-version]: https://img.shields.io/packagist/v/juy/tccheck.svg?style=flat-square
+[link-packagist]: https://packagist.org/packages/juy/tccheck
+
+[ico-license]: https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square
