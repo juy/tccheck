@@ -2,6 +2,8 @@
 
 [![Latest Version on Packagist][ico-version]][link-packagist] [![Software License][ico-license]](LICENSE.txt)
 
+> ### ⚠️ Bu proje terk edilmiştir, artık güncellenmeyecektir. Ayrıca herhangi bir destek verilmemektedir. 
+
 > "Algoritmik kontrol" ve "API üzerinden veri doğruluk kontrolü" olarak iki kısımdan oluşan "T.C. Kimlik numarası doğrulama ve sorgulama" sınıfı.
 
 ----------
