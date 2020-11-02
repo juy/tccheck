@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="https://static.turkiye.gov.tr/downloads/e-kimlik"  href="edevlet-ekimlik.jnlp">
+	
+    <information>
+        <title>E-Devlet Kimlik Kartı Uygulaması</title>
+        <vendor>Turksat</vendor>
+        <homepage href="https://www.turkiye.gov.tr"/>
+        <description>E-Devlet Kimlik Kartı Uygulaması</description>
+        <icon href="kimlik-64.png"/>
+        <icon kind="splash" href="kimlik-256.png"/>
+        <offline-allowed/>
+        <shortcut online="true">
+            <desktop/>
+            <menu submenu="E-Devlet Kimlik Kartı Uygulaması"/>
+        </shortcut>
+
+    </information>
+
+
+    <security>
+        <all-permissions />
+    </security>
+
+    <resources>
+        <j2se version="1.7+" href="http://java.sun.com/products/autodl/j2se" />
+        <jar href="ekimlik.jar" main="true" />
+        <property name="jnlp.packEnabled" value="true" />
+    </resources>
+	
+    <application-desc name="E-Devlet Kimlik Kartı Uygulaması" main-class="tr.gov.turkiye.ekds.run.StartFrame">
+    </application-desc>
+	
+    <update check="always" policy="always"/>
+	
+</jnlp>
